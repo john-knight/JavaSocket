@@ -17,5 +17,4 @@ public class Server {
         System.out.println("客户端输入的数据为：--》"+string);
         out.writeUTF("客户端收到了："+string);
     }
-
 }
